@@ -49,7 +49,7 @@ def main():
         layout="wide"
     )
     
-    st.title("📧 BAÜ E-posta Sistemi")
+    st.title("📧 BAUN E-posta Sistemi")
     
     # Sidebar'da e-posta ayarları
     with st.sidebar:

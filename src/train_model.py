@@ -8,7 +8,7 @@ from preprocess import clean_text, get_turkish_stopwords
 
 def train_spam_model():
     # Veri setini yükleme
-    df = pd.read_csv('../data/spam_dataset_tr_large.csv', names=['label', 'text'])
+    df = pd.read_csv('../data/trspam.csv', names=['label', 'text'])
     
     # Veriyi temizleme
     df['text'] = df['text'].apply(clean_text)
